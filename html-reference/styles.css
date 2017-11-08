@@ -12,6 +12,7 @@ h4 {
 
 /*Table formatting*/
 table, th, td {
+  width: 100%
   border: 1px solid black;
   border-collapse: collapse;
   text-align: left;
