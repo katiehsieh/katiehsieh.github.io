@@ -10,10 +10,9 @@
     
     <a href="/index.html">Home Page</a>
     
-    <h1>HTML Reference Page</h1>
+    <h1 class="sectionheading">HTML Reference Page</h1>
     
-    
-    <h2>Reference Table</h2>
+    <h2 class="sectionheading">REFERENCE TABLE</h2>
     
     <table style="width:100%">
       
@@ -137,7 +136,11 @@
       
     </table>
     
-    <h2 id="0">HTML Page Components</h2>
+    <br><br><hr><br>
+    
+    <h2 id="0" class="sectionheading">HTML PAGE SETUP</h2>
+    
+    <h3>HTML Page Components</h3>
     <ul>
       <li>DOCTYPE</li>
       <li>head</li>
@@ -146,6 +149,7 @@
     </ul>
     
     <h3>Structure</h3>
+    <div class="code">
     <pre>
     <code>
     &lt;!DOCTYPE html>
@@ -162,67 +166,85 @@
     &lt;html>
     </code>
     </pre>
+    </div>
     
-    <hr>
-    <br>
+    <br><hr><br>
     
-    <h2>Elements</h2>
+    <h2 class="sectionheading">ELEMENTS</h2>
     
-    <h3 id="1">HTML Element</h3>
+    <h3 id="1" class="subheading">HTML Element</h3>
     <h4>Description</h4>
     <p>The HTML element contains all the code in the HTML document.</p>
     <h4>Syntax</h4>
     <code>&lt;html> &lt;/html></code>
     <h4>Example</h4>
+    <div class="code">
+    <pre>
     <code>
       &lt;html>
-      <br><br>
+      &lt;head>
+        
+      &lt;/head>
+      &lt;body>
+        
+      &lt;/body>
       &lt;/html>
     </code>
+    </pre>
+    </div>
     <h4>Display</h4>
     <p>This does not show on the display.</p>
     <a href="https://www.w3schools.com/tags/tag_html.asp"><h4>W3 Schools Link</h4></a>
     
     <hr>
     
-    <h3 id="2">Head Element</h3>
+    <h3 id="2" class="subheading">Head Element</h3>
     <h4>Description</h4>
     <p>The head contains data about the HTML document that is not shown in the display.</p>
     <h4>Syntax</h4>
     <code>&lt;head> &lt;/head></code>
     <h4>Example</h4>
+    <div class="code">
+    <pre>
     <code>
       &lt;head>
-      <br><br>
+      
       &lt;/head>
     </code>
+    </pre>
+    </div>
     <h4>Display</h4>
     <p>This does not show on the display.</p>
     <a href="https://www.w3schools.com/html/html_head.asp"><h4>W3 Schools Link</h4></a>
     
     <hr>
     
-    <h3 id="3">Title Element</h3>
+    <h3 id="3" class="subheading">Title Element</h3>
     <h4>Description</h4>
     <p>The title of the web page is displayed on the tab.</p>
     <h4>Syntax</h4>
     <code>&lt;title>Page Title&lt;/title></code>
     <h4>Example</h4>
+    <div class="code">
+    <pre>
     <code>
       &lt;title>HTML Reference Page&lt;/title>
     </code>
+    </pre>
+    </div>
     <h4>Display</h4>
     <p>The title is displayed on the tab.</p>
     <a href="https://www.w3schools.com/tags/tag_title.asp"><h4>W3 Schools Link</h4></a>
     
     <hr>
     
-    <h3 id="4">Body Element</h3>
+    <h3 id="4" class="subheading">Body Element</h3>
     <h4>Description</h4>
     <p>The body contains the content that is displayed on the web page.</p>
     <h4>Syntax</h4>
     <code>&lt;body> &lt;/body></code>
     <h4>Example</h4>
+    <div class="code">
     <pre>
     <code>
       &lt;body>
@@ -230,23 +252,28 @@
       &lt;/body>
     </code>
     </pre>
+    </div>
     <h4>Display</h4>
     <p>Only the content inside the body is shown on the display.</p>
     <a href="https://www.w3schools.com/tags/tag_body.asp"><h4>W3 Schools Link</h4></a>
     
     <hr>
     
-    <h3 id="5">Headings Element</h3>
+    <h3 id="5" class="subheading">Headings Element</h3>
     <h4>Description</h4>
     <p>Headings are used to structure the content of the web page and can be used for titles of different sections.</p>
     <h4>Syntax</h4>
     <code>&lt;h1>Heading&lt;/h1></code>
     <h4>Example</h4>
+    <div class="code">
+    <pre>
     <code>
       &lt;h1>Largest Heading Here&lt;/h1>
       <br>
       &lt;h6>Smallest Heading Here&lt;/h6>
     </code>
+    </pre>
+    </div>
     <h4>Display</h4>
     <h1>Largest Heading Here</h1>
     <h6>Smallest Heading Here</h6>
@@ -254,45 +281,57 @@
     
     <hr>
     
-    <h3 id="6">Paragraph Element</h3>
+    <h3 id="6" class="subheading">Paragraph Element</h3>
     <h4>Description</h4>
     <p>Paragraphs are the regular text on the web page.</p>
     <h4>Syntax</h4>
     <code>&lt;p>Paragraph.&lt;/p></code>
     <h4>Example</h4>
+    <div class="code">
+    <pre>
     <code>
       &lt;p>This is a paragraph.&lt;/p>
     </code>
+    </pre>
+    </div>
     <h4>Display</h4>
     <p>This is a paragraph.</p>
     <a href="https://www.w3schools.com/html/html_paragraphs.asp"><h4>W3 Schools Link</h4></a>
     
     <hr>
     
-    <h3 id="7">Breaks Element</h3>
+    <h3 id="7" class="subheading">Breaks Element</h3>
     <h4>Description</h4>
     <p>Breaks add a space (enter) in between lines of text. Breaks do not have end tags.</p>
     <h4>Syntax</h4>
     <code>&lt;br></code>
     <h4>Example</h4>
+    <div class="code">
+    <pre>
     <code>
       &lt;br>
     </code>
+    </pre>
+    </div>
     <h4>Display</h4>
     <br>
     <a href="https://www.w3schools.com/tags/tag_br.asp"><h4>W3 Schools Link</h4></a>
     
     <hr>
     
-    <h3 id="8">Lines Element</h3>
+    <h3 id="8" class="subheading">Lines Element</h3>
     <h4>Description</h4>
     <p>Lines add a horizontal line across the page in between lines of text. Lines do not have end tags.</p>
     <h4>Syntax</h4>
     <code>&lt;hr></code>
     <h4>Example</h4>
+    <div class="code">
+    <pre>
     <code>
       &lt;hr>
     </code>
+    </pre>
+    </div>
     <h4>Display</h4>
     <hr>
     <br>
@@ -300,15 +339,19 @@
     
     <hr>
     
-    <h3 id="9">Comments Element</h3>
+    <h3 id="9" class="subheading">Comments Element</h3>
     <h4>Description</h4>
     <p>Comments label code and do not run in the code. Comments can also be used for debugging.</p>
     <h4>Syntax</h4>
     <code>&lt;!-- comment --></code>
     <h4>Example</h4>
+    <div class="code">
+    <pre>
     <code>
       &lt;!-- another comment here -->
     </code>
+    </pre>
+    </div>
     <h4>Display</h4>
     <p>Comments do not show on the display.</p>
     <!-- This is a comment that is not shown on the display -->
@@ -316,37 +359,45 @@
     
     <hr>
     
-    <h3 id="10">Links Element</h3>
+    <h3 id="10" class="subheading">Links Element</h3>
     <h4>Description</h4>
     <p>Links are used to add hyperlinks to text or images that link to another web page.</p>
     <h4>Syntax</h4>
     <code>&lt;a href="url">link text&lt;/a></code>
     <h4>Example</h4>
+    <div class="code">
+    <pre>
     <code>
       &lt;a href="https://www.google.com/">Google&lt;/a>
     </code>
+    </pre>
+    </div>
     <h4>Display</h4>
     <a href="https://www.google.com/">Google</a>
     <a href="https://www.w3schools.com/html/html_links.asp"><h4>W3 Schools Link</h4></a>
     
     <hr>
     
-    <h3 id="11">Images Element</h3>
+    <h3 id="11" class="subheading">Images Element</h3>
     <h4>Description</h4>
     <p>Images are the pictures on a web page.</p>
     <h4>Syntax</h4>
     <code>&lt;img src="url"></code>
     <h4>Example</h4>
+    <div class="code">
+    <pre>
     <code>
       &lt;img src="https://d30y9cdsu7xlg0.cloudfront.net/png/3191-200.png" alt="music note">
     </code>
+    </pre>
+    </div>
     <h4>Display</h4>
     <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/3191-200.png" alt="music note">
     <a href="https://www.w3schools.com/html/html_images.asp"><h4>W3 Schools Link</h4></a>
     
     <hr>
     
-    <h3 id="12">Lists Element</h3>
+    <h3 id="12" class="subheading">Lists Element</h3>
     
     <h4>Description</h4>
     <p>An unordered list consists of a list of bulleted items. An ordered lists consists of a list that has numbered items.</p>
@@ -377,6 +428,7 @@
     <h4>Example</h4>
     
     <p>Unordered List</p>
+    <div class="code">
     <pre>
     <code>
       &lt;ul>
@@ -386,8 +438,10 @@
       &lt;/ul>
     </code>
     </pre>
+    </div>
     
     <p>Ordered List</p>
+    <div class="code">
     <pre>
     <code>
       &lt;ol>
@@ -397,6 +451,7 @@
       &lt;/ol>
     </code>
     </pre>
+    </div>
     
     <h4>Display</h4>
     <p>Unordered List</p>
@@ -416,7 +471,7 @@
     
     <hr>
     
-    <h3 id="13">Tables Element</h3>
+    <h3 id="13" class="subheading">Tables Element</h3>
     <h4>Description</h4>
     <p>Tables can be used to store information or data into rows and columns.</p>
     <h4>Syntax</h4>
@@ -435,6 +490,7 @@
     </code>
     </pre>
     <h4>Example</h4>
+    <div class="code">
     <pre>
     <code>
       &lt;table style="width:100%">
@@ -456,6 +512,7 @@
       &lt;/table>
     </code>
     </pre>
+    </div>
     <h4>Display</h4>
     <table style="width:100%">
       <tr>
@@ -478,22 +535,24 @@
     
     <hr>
     
-    <h3 id="14">Blocks Element</h3>
+    <h3 id="14" class="subheading">Blocks Element</h3>
     <h4>Description</h4>
     <p>The &lt;div> element groups sections of code to apply formatting or styles to the whole block at one time.</p>
     <h4>Syntax</h4>
     <code>&lt;div> &lt;/div></code>
     <h4>Example</h4>
+    <div class="code">
     <pre>
     <code>
-      &lt;div style="background:DodgerBlue">
+      &lt;div style="border:1px solid black">
         &lt;h5>Div Section&lt;/h5>
         &lt;p>Paragraph in div section.&lt;/p>
       &lt;/div>
     </code>
     </pre>
+    </div>
     <h4>Display</h4>
-    <div style="background:DodgerBlue">
+    <div style="border: 1px solid black">
       <h5>Div Section</h5>
       <p>Paragraph in div section.</p>
     </div>
