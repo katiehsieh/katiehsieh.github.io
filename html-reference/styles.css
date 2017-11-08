@@ -12,13 +12,16 @@ h4 {
 
 /*Table formatting*/
 table, th, td {
-  width: 100%
   border: 1px solid black;
   border-collapse: collapse;
   text-align: left;
   padding: 10px;
 }
 
+table {
+  width: 100%
+}
+  
 th {
   color: white;
   background-color: #9966ff;
