@@ -1,1 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Happy Monkey');
 
+body {
+  font-family: Muli;
+  margin: 0;
+  background-color: white;
+}
+
+/* home page background */
+.background {
+  background: url("http://elnacional.com.do/wp-content/uploads/2014/09/25_Semana_07_1p01.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* music icon */
+.image {
+  width: 25px;
+  height: 25px;
+  margin: 15px;
+  float: left;
+}
+
+/* website title */
+.title {
+  display: block;
+  font-family: "Happy Monkey";
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  margin: 15;
+}
+
+/* home page text */
+.hometext {
+  color: black;
+  margin: 50px;
+}
+
+/* home page icons box */
+.box {
+  height: 150px;
+  margin-left: auto; 
+  margin-right: auto;
+  background-color: rgb(255,255,255);
+}
+.box img {
+    width: 100px;
+    padding: 15px 0;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+
+/* subpage heading */
+.heading {
+  font-family: "Happy Monkey";
+  margin: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #336699;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+
+/* indicate active page on nav */
+.active {
+    background-color: #009999;
+}
