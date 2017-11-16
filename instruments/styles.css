@@ -30,22 +30,15 @@ body {
     font-size: 17px;
     font-weight: bold;
     color: white;
-    margin: 15;
 }
 
 /* transparent block */
 .transparent {
     background-color: rgb(255,255,255);
     background-color: rgba(255,255,255,0.75);
-    margin: 15px;
-    border-radius: 25px;
-}
-
-/* home page text */
-.hometext {
-    width: 100%;
-    color: black;
     padding: 25px;
+    margin: 100px;
+    border-radius: 25px;
 }
 
 /* home page icons table */
@@ -62,15 +55,13 @@ td {
 .icontable img {
     width: 100px;
     height: 100px;
-    overflow: auto;
 }
 
 /* subpage heading */
 h1 {
   font-family: "Happy Monkey";
   text-align: center;
-  margin-top: 50px;
-  padding-top: 50px;
+  margin: 25px;
 }
 
 /* Style the top navigation bar */
@@ -80,7 +71,7 @@ h1 {
 }
 
 /* Style the topnav links */
-.atopnav a{
+.atopnav a {
     float: right;
     display: block;
     color: #f2f2f2;
