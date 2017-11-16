@@ -37,19 +37,22 @@ body {
 .transparent {
     background-color: rgb(255,255,255);
     background-color: rgba(255,255,255,0.75);
+    margin: 15px;
+    border-radius: 25px;
 }
+
 /* home page text */
 .hometext {
     width: 100%;
     color: black;
-    padding: 50px;
+    padding: 25px;
 }
 
 /* home page icons table */
 table {
     width: 100%;
     text-align: center;
-    padding: 15px 25px;
+    padding: 25px 0;
 }
 
 td {
@@ -62,19 +65,12 @@ td {
     overflow: auto;
 }
 
-/*
-.box img:hover:not(.active) {
-    width: 115px;
-    height: 115px;
-}
-
-*/
-
 /* subpage heading */
 h1 {
   font-family: "Happy Monkey";
   text-align: center;
-  margin: 50px;
+  margin-top: 50px;
+  padding-top: 50px;
 }
 
 /* Style the top navigation bar */
