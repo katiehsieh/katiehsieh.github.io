@@ -1,67 +1,79 @@
 @import url('https://fonts.googleapis.com/css?family=Muli|Happy Monkey');
 
 body {
-  font-family: Muli;
-  margin: 0;
-  background-color: white;
+    font-family: Muli;
+    margin: 0;
+    background-color: white;
 }
 
 /* home page background */
 .background {
-  background: url("http://elnacional.com.do/wp-content/uploads/2014/09/25_Semana_07_1p01.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("http://elnacional.com.do/wp-content/uploads/2014/09/25_Semana_07_1p01.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* music icon */
 .image {
-  width: 25px;
-  height: 25px;
-  margin: 15px;
-  float: left;
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    float: left;
 }
 
 /* website title */
 .title {
-  display: block;
-  font-family: "Happy Monkey";
-  font-size: 17px;
-  font-weight: bold;
-  color: white;
-  margin: 15;
+    display: block;
+    font-family: "Happy Monkey";
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    margin: 15;
 }
 
+/* transparent block */
+.transparent {
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,0.75);
+}
 /* home page text */
 .hometext {
-  color: black;
-  margin: 50px;
-}
-
-/* home page icons box */
-.box {
-  height: 150px;
-  margin-left: auto; 
-  margin-right: auto;
-  background-color: rgb(255,255,255);
-}
-.box img {
-    width: 100px;
-    padding: 15px 0;
-}
-
-.stretch {
     width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0
+    color: black;
+    padding: 50px;
 }
 
+/* home page icons table */
+table {
+    width: 100%;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+td {
+    padding: 5px 25px;
+}
+
+.icontable img {
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+}
+
+/*
+.box img:hover:not(.active) {
+    width: 115px;
+    height: 115px;
+}
+
+*/
 
 /* subpage heading */
-.heading {
+h1 {
   font-family: "Happy Monkey";
+  text-align: center;
   margin: 50px;
 }
 
@@ -72,7 +84,7 @@ body {
 }
 
 /* Style the topnav links */
-.topnav a {
+.atopnav a{
     float: right;
     display: block;
     color: #f2f2f2;
@@ -82,7 +94,7 @@ body {
 }
 
 /* Change color on hover */
-.topnav a:hover:not(.active) {
+.atopnav a:hover:not(.active) {
     background-color: #ddd;
     color: black;
 }
