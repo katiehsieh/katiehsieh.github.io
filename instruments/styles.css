@@ -3,7 +3,10 @@
 body {
     font-family: Muli;
     margin: 0;
-    background-color: white;
+}
+
+p {
+  font-size: 18px;
 }
 
 /* home page background */
@@ -70,6 +73,28 @@ td {
   margin: 100px;
 }
 
+/* video resize */
+.videowrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.videosize {
+  width: 100%;
+  max-width: 560px;
+  margin: auto;
+}
+
 /*
 .heading {
     background: url("http://www.reuun.com/data/out/68/403032445-instrument-wallpapers.jpg");
@@ -87,6 +112,7 @@ td {
     overflow: hidden;
     background-color: #336699;
     position: fixed;
+    z-index: 10;
     top: 0;
 }
 
