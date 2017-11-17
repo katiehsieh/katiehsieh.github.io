@@ -58,17 +58,36 @@ td {
     height: 100px;
 }
 
-/* subpage heading */
-h1 {
+.homepage {
+    font-family: "Happy Monkey";
+    text-align: center;
+    margin: 25px;
+}
+
+.subpage {
   font-family: "Happy Monkey";
   text-align: center;
-  margin: 25px;
+  margin: 100px;
 }
+
+/*
+.heading {
+    background: url("http://www.reuun.com/data/out/68/403032445-instrument-wallpapers.jpg");
+    height: 150px;
+    font-family: "Happy Monkey";
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+*/
 
 /* Style the top navigation bar */
 .topnav {
+    width: 100%;
     overflow: hidden;
     background-color: #336699;
+    position: fixed;
+    top: 0;
 }
 
 /* Style the topnav links */
