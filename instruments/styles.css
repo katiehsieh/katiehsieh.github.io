@@ -3,15 +3,34 @@
 body {
     font-family: Muli;
     margin: 0;
+    min-width: 480px;
 }
 
 p {
-  font-size: 18px;
+    font-size: 18px;
+}
+
+h2 {
+    font-family: "Happy Monkey";
+    font-size: 125%;
+}
+
+ul {
+    color: gray;
 }
 
 /* home page background */
 .background {
     background: url("http://elnacional.com.do/wp-content/uploads/2014/09/25_Semana_07_1p01.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* subpage background */
+.background2 {
+    background: url("https://theultralinx.com/.image/t_share/MTI5MDI1MTM5NjUxNDU1NjE5/music-pattern-wallpaper.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,8 +88,10 @@ td {
 
 .subpage {
   font-family: "Happy Monkey";
+  font-size: 300%;
   text-align: center;
-  margin: 100px;
+  margin-bottom: 50px;
+  padding-top: 100px;
 }
 
 /* video resize */
@@ -135,4 +156,75 @@ td {
 /* indicate active page on nav */
 .active {
     background-color: #009999;
+}
+
+/* subpage section */
+.section {
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,0.9);
+    margin: auto;
+    height: 100%;
+    max-width: 800px;
+    position: relative;
+    top: 0;
+}
+
+/* subpage description */
+.description {
+    text-align: center;
+    margin: 50px 100px;
+}
+
+/* flex box */
+.fboxcontainer {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    margin: auto;
+}
+
+.leftcol, .rightcol {
+    margin:10px;
+}
+
+.leftcol {
+   width: 50%;
+}
+
+.rightcol {
+   width: 50%;
+}
+
+.rightcol img {
+   width: 100%;
+}
+
+.button {
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.button a {
+    background: rgb(0, 153, 153);
+    border: 1px solid rgb(0, 153, 153);
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.button a:hover {
+    background: white;
+    border: 1px solid rgb(0, 153, 153);
+    color: rgb(0, 153, 153);
+}
+
+.text {
+    text-align: left;
+    width: 75%;
+    padding: 50px;
+    margin: auto;
 }
