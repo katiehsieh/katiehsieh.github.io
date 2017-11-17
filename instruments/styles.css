@@ -54,6 +54,13 @@ ul {
     color: white;
 }
 
+/* home page content */
+.content {
+    margin: auto;
+    height: 100%;
+    max-width: 1200px;
+}
+
 /* transparent block */
 .transparent {
     background-color: rgb(255,255,255);
