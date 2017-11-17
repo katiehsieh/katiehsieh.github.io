@@ -19,6 +19,11 @@ ul {
     color: gray;
 }
 
+hr {
+    border: 3px solid rgb(0, 153, 153);
+    width: 80%;
+}
+
 /* home page background */
 .background {
     background: url("http://elnacional.com.do/wp-content/uploads/2014/09/25_Semana_07_1p01.jpg") no-repeat center center fixed;
@@ -174,6 +179,7 @@ td {
     max-width: 800px;
     position: relative;
     top: 0;
+    border: 1px solid black;
 }
 
 /* subpage description */
@@ -191,15 +197,15 @@ td {
 }
 
 .leftcol, .rightcol {
-    margin:10px;
+    margin: auto;
 }
 
 .leftcol {
-   width: 50%;
+   width: 40%;
 }
 
 .rightcol {
-   width: 50%;
+   width: 60%;
 }
 
 .rightcol img {
