@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito&display=swap');
+
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
