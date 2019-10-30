@@ -8,3 +8,11 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
+
+.icons {
+  font-size: 36px;
+}
+
+.icons > a {
+  padding: 6px;
+}
