@@ -13,21 +13,75 @@
 
   </head>
   <body>
-    <div class="container-fluid">
-      <h1 class="title">Katie Hsieh</h1>
-      <p>I am a student at UC San Diego studying computer engineering.</p>
-      <br>
-      <h3 class="title">Other Projects:</h3>
-      <p>✩ <a href="https://sites.google.com/view/circuitpython/home" target="_blank">Intro to Python Hardware</a></p>
-      <p>✩ <a href="http://yarnplushies.com/" target="_blank">Yarn Plushies</a></p>
-      <br>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/katie-hsieh/" target="_blank"<i class="fa fa-linkedin-square"></i></a>
-        <a href="https://github.com/katiehsieh" target="_blank"><i class="fa fa-github"></i></a>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#home">KATIE HSIEH</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
       </div>
-      <br>
-      <br>
-      <kbd>Full site coming soon...</kbd>
+    </nav>
+
+    <div id="home" class="container-fluid"></div>
+
+    <div class="container-fluid">
+      <h1>Hello!</h1>
+      <p>I'm a student at UC San Diego studying computer engineering.</p>
     </div>
+
+    <div id="projects" class="container-fluid">
+      <h1>Projects</h1>
+      <br>
+      
+      <div class="col-sm-4"></div>
+
+      <div class="col-sm-4">
+
+        <div class="panel panel-default">
+          <a href="https://sites.google.com/view/circuitpython" target="_blank"><img src="circuit python.jpg" class="img-responsive" alt="CircuitPython"></a>
+          <div class="panel-body">
+            <h3 class="card-title">Intro to CircuitPython</h3>
+            <p class="card-text">A guide for teaching students how to program hardware using Python. A quick introduction to Python programming, circuits, and electronics using CircuitPython platform and Metro M0 Express board.</p>
+            <br>
+            <a href="https://sites.google.com/view/circuitpython" target="_blank"><button class="btn btn-lg">Website</button></a>
+          </div>
+          <br>
+        </div>
+
+        <br>
+
+        <div class="panel panel-default">
+          <a href="https://yarnplushies.com/" target="_blank"><img src="logo.png" class="img-responsive" alt="Yarn Plushies"></a>
+          <div class="panel-body">
+            <h3 class="card-title">Yarn Plushies</h3>
+            <p class="card-text">A small business for handmade crochet stuffed animals.</p>
+            <br>
+            <a href="https://yarnplushies.com/" target="_blank"><button class="btn btn-lg">Website</button></a>
+          </div>
+          <br>
+        </div>
+
+        <br>
+
+      </div>
+      
+      <div class="col-sm-4"></div>
+
+    </div>
+    
+    <footer class="icons">
+      <a href="https://github.com/katiehsieh" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/katie-hsieh/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+    </footer>
+    <script src="/script.js"></script>
   </body>
 </html>
