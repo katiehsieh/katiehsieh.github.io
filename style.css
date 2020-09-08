@@ -1,18 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans|Open+Sans&display=swap');
 
-.title {
-  font-family: 'Josefin Sans', sans-serif;
+h1, h2, h3 {
+  font-family: 'Work Sans', sans-serif !important;
 }
-
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 18px !important;
+}
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  color: gray;
 }
-
+.container-fluid {
+  text-align: center;
+  padding: 30px 100px;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: #8675a9 !important;
+  z-index: 9999;
+  border: 0;
+  font-size: 18px !important;
+  letter-spacing: 2px;
+  border-radius: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: white !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: lightgray !important;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: transparent !important;
+  color: white !important;
+}
+.panel {
+  border-radius: 12px !important;
+}
+.panel img {
+  border-radius: 12px 12px 0 0;
+}
+.panel:hover {
+  box-shadow: 0 0 12px rgba(0,0,0, .2);
+}
+.btn {
+  background-color: #8675a9;
+  color:white;
+  margin: 0;
+}
+.btn:hover, .btn:focus {
+  border: 1px solid #8675a9;
+  background-color: white !important;
+  color: #8675a9 !important;
+}
 .icons {
-  font-size: 36px;
+  font-size: 24px;
+  text-align: center;
 }
-
 .icons > a {
+  color: white;
   padding: 6px;
+}
+.icons > a:hover {
+  color: lightgray;
+}
+footer {
+  background-color: #8675a9;
+  padding: 24px;
 }
