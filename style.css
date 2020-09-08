@@ -30,7 +30,7 @@ img {
   margin-bottom: 0;
   background-color: #8675a9 !important;
   z-index: 9999;
-  border: 0;
+  border: 0 !important;
   font-size: 18px !important;
   letter-spacing: 2px;
   border-radius: 0;
