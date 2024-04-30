@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans|Karla&display=swap');
 
 h1, h2, h3 {
   font-family: 'Work Sans', sans-serif !important;
 }
 body {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Karla', sans-serif !important;
   font-size: 18px !important;
 }
 p {
@@ -48,12 +48,16 @@ img {
 }
 .panel {
   border-radius: 12px !important;
+  padding-bottom: 20px;
 }
 .panel img {
   border-radius: 12px 12px 0 0;
 }
 .panel:hover {
   box-shadow: 0 0 12px rgba(0,0,0, .2);
+}
+.card-text{
+  padding: 10px;
 }
 .btn {
   background-color: #8675a9;
