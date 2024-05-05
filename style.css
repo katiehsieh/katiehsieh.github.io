@@ -56,13 +56,20 @@ img {
 .panel:hover {
   box-shadow: 0 0 12px rgba(0,0,0, .2);
 }
-.card-text{
+.panel > img {
+  width: 100%;
+}
+.card-text {
   padding: 10px;
 }
-.btn {
+.card-date {
+  color: #8675a9;
+  font-weight: bold;
+}
+.btn.btn-lg {
   background-color: #8675a9;
   color:white;
-  margin: 0;
+  margin: 10px;
 }
 .btn:hover, .btn:focus {
   border: 1px solid #8675a9;
