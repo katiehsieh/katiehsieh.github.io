@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Katie Hsieh</title>
+    <title>Balloons Away! - Katie Hsieh</title>
     <link rel="icon" href="/images/kfavicon.png">
     <link href="/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div class="pattern"></div>
-    
+
     <nav class="topnav" id="myTopnav">
       <a href="/" class="name">Katie Hsieh</a>
       <div class="menu">
         <a href="/about">About</a>
         <a href="/projects">Projects</a>
-        <a href="/mini-games">Mini Games</a>
+        <a href="/mini-games" class="active">Mini Games</a>
       </div>
       <button onclick="navButton()">
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="navOpen" viewBox="0 0 16 16">
@@ -28,16 +28,34 @@
     </nav>
 
     <div class="content">
-      <div class="box">
-        <img src="/images/katie.png" alt="Katie">
-        <div class="text">
-          <h1>Hi, I'm Katie!</h1>
-          <p>I recently got my master's and bachelor's in computer engineering at UC San Diego.</p>
-          <p>I'm interested in pursuing a career in hands-on STEM education or front-end engineering.</p>
-          <p>I also started a small crochet business with my brother called <a href="https://mochichums.com/" target="_blank">Mochi Chums</a>!</p>
-        </div>
+      <div class="game">
+        <h2><a href="https://scratch.mit.edu/projects/69822950/" target="_blank">Balloons Away!</a></h2>
+        <iframe src="https://scratch.mit.edu/projects/69822950/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <h3>Instructions</h3>
+        <strong>Play</strong>
+        <p>Use the arrow keys (or WASD) to move the bird to pop the balloons and avoid the falling sticks. If you get hit by a stick, you lose one of the three lives you start out with. Once you lose all of your lives, the game is over. You can use the balloons you pop to buy power-ups. If you reach a certain score in a game, you will unlock colors that can be used to customize your bird at the shop.</p>
+        <ul>
+          <li>25: green</li>
+          <li>50: yellow</li>
+          <li>75: orange</li>
+          <li>100: red</li>
+          <li>125: purple</li>
+        </ul>
+
+        <strong>Shop</strong>
+        <p>At the shop you can buy power-ups for 100 balloons including:</p>
+        <ul>
+          <li>Heart: get an extra life</li>
+          <li>Lightning: speed boost for 15 seconds</li>
+          <li>Frozen Balloon: slows down all balloons for 15 seconds</li>
+          <li>Magnet: attracts nearby balloons for 15 seconds</li>
+          <li>Cape: invincibility of falling sticks for 15 seconds</li>
+        </ul>
+        <p>You can also unlock new colors to customize your bird.</p>
+
+        <strong>Help</strong>
+        <p>Basic instructions on how to play are found here.</p>
       </div>
-      
     </div>
     
     <footer>

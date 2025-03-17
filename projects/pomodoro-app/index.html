@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pomodoro App - Katie Hsieh</title>
+    <link rel="icon" href="/images/kfavicon.png">
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="pattern"></div>
+    
+    <nav class="topnav" id="myTopnav">
+      <a href="/" class="name">Katie Hsieh</a>
+      <div class="menu">
+        <a href="/about">About</a>
+        <a href="/projects" class="active">Projects</a>
+        <a href="/mini-games">Mini Games</a>
+      </div>
+      <button onclick="navButton()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="navOpen" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="navClose" viewBox="0 0 16 16">
+          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+        </svg>
+      </button>
+    </nav>
+
+    <div class="content project">
+
+      <h1>Pomodoro App</h1>
+      <p>A to-do list and pomodoro timer web application</p>
+
+      <h2>Project Overview</h2>
+      <p>Software Engineering Course Project</p>
+      <p><b>Duration:</b> 10 weeks (Jan-Mar 2021)</p>
+      <p><b>Team:</b> 9 members</p>
+      <p><b>My main role:</b> user interface design</p>
+      <p><a href="https://github.com/Zihaokong/cse110-w21-group27" target="_blank">GitHub</a> | <a href="https://zihaokong.github.io/cse110-w21-group27/" target="_blank">Final App</a></p>
+
+      <h2>Problem: Struggling with Time Management</h2>
+      <p>Many college students have a lot to balance on their plate, such as school work, extracurricular activities, jobs, social life, and sleep. However, there’s only a limited amount of time in a day, so students need to make sure they are using their time wisely. There are also many distractions that keep students from completing their work, such as scrolling endlessly on social media, watching YouTube videos, or playing video games. The pomodoro timer technique is a tool that students can use to reduce these distractions and get their work done in manageable chunks of time. By getting their assignments done more efficiently, students can have more time to relax and enjoy other fun activities with friends.</p>
+      <b>How might students remember deadlines and eliminate distractions while working in order to increase productivity and work more efficiently?</b>
+
+      <h2>User Personas</h2>
+      <p>Although we initially created this web application with students as the priamry target audience, we also explored other possible users that could benefit from a productivity tool.</p>
+      <img src="./images/personas.png" alt="Personas">
+      
+      <h2>Brainstorming Features</h2>
+      <p>Next, we brainstormed what features to include in our application. We also drew out the flow of how a user would interact with the application. In the brainstorming phase, we included a variety of features that we thought would benefit students, but these were narrowed down to only the essential features later on in order to maximize the usability of the application.</p>
+      <img src="./images/feature-list.jpeg" alt="Feature List">
+      <img src="./images/use-case.png" alt="Use Case">
+      <img src="./images/user-flow.jpeg" alt="User Flow">
+
+      <h2>Initial Design: Paper Sketches</h2>
+      <p>I first approached the visual design by sketching out on paper what the interface could look like. I also started narrowing down the features and user actions for each of the pages.</p>
+      <h3>To-Do List Page</h3>
+      <img src="./images/rough-tasklist.png" alt="Rough Tasklist">
+      <h3>Timer Page</h3>
+      <img src="./images/rough-timer.png" alt="Rough Timer">
+      <h3>Statistics Page</h3>
+      <img src="./images/rough-stats.png" alt="Rough Stats">
+
+      <h2>Digital Wireframes and Feedback</h2>
+      <p>After sketching on paper, I started creating digital wireframes and got feedback on the designs from my other teammates (shown on the sticky notes).</p>
+      <h3>To-Do List Page</h3>
+      <img src="./images/wireframe-tasklist.jpeg" alt="Wireframe Tasklist">
+      <h3>Timer Page</h3>
+      <img src="./images/wireframe-timer.jpeg" alt="Wireframe Timer">
+
+      <h2>Visual Design Elements</h2>
+      <h3>Color Palette</h3>
+      <img src="./images/color-palette.png" alt="Color Palette">
+      <h3>Font & Icons</h3>
+      <p><b>Font:</b> Poppins</p>
+      <p>I chose this font because of it's clarity and ease of reading. I also selected icons for the buttons and other aspects of the design so that there wouldn't be too much text cluttering the user interface.</p>
+
+      <h2>Final High-Fidelity Prototype</h2>
+      <p>Finally, I created an interactive <a href="https://www.figma.com/proto/z8l38oN6IbL2t4wXb6WCDe/Pomo-App?node-id=165%3A2&scaling=contain" target="_blank">high-fideltiy protoype in Figma</a> that the rest of my team worked on implementing.</p>
+      <img src="./images/tasklist.png" alt="Tasklist">
+      <img src="./images/timer.png" alt="Timer">
+      <img src="./images/break.png" alt="Break">
+      <img src="./images/stats.png" alt="Stats">
+    </div>
+    
+    <footer>
+      <a href="https://github.com/katiehsieh" target="_blank" class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/katie-hsieh/" target="_blank" class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </svg>
+      </a>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
