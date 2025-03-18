@@ -179,10 +179,34 @@ img {
   font-family: 'Playpen Sans', sans-serif;
 }
 
+/* ABOUT PAGE */
+
+.about {
+  max-width: 600px;
+  margin: auto;
+}
+
+.about h1 {
+  font-family: 'Playpen Sans', sans-serif;
+}
+
+.about .text {
+  text-align: left;
+}
+
+.about img {
+  width: 300px;
+  box-shadow: 15px 15px 0 var(--secondary);
+  border-radius: 6px;
+  float: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
 /* PROJECTS PAGE */
 
 .project-card {
-  
   background-color: var(--card);
   border-radius: 6px;
   border: 2px solid var(--primary);
